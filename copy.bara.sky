@@ -1,0 +1,64 @@
+load("//devtools/copybara/library/workflow", "google3_glob")
+
+google3_path = "experimental/viscam/deepflow/external/opticalflow-autoflow-github"
+
+# Common files like OWNERS, METADATA, etc are excluded by default
+google3_excludes = [
+    "something_internal/**",
+    "src/foo/also_internal.py",
+    "**/README_internal.md",
+]
+
+google3_files = google3_glob(google3_path, google3_excludes)
+
+transforms = [
+    core.move("google3/" + google3_path, ""),
+    core.replace(
+        before = "from google3.third_party.foo.${name}",
+        after = "from foo.${name}",
+        paths = glob(["**.py"]),
+    ),
+]
+
+allowed_authors = {
+    "irwinherrmann": "Charles Herrmann <irwinherrmann@google.com>",
+    "deqingsun": "Deqing Sun <deqingsun@google.com>",
+    "fitsumreda": "Fitsum Reda <fitsumreda@google.com>",
+}
+
+load("//devtools/copybara/library/workflow", "piper_sot_to_github")
+
+# An example config with status_context_names
+piper_sot_to_github(
+    google3_files = google3_files,
+    default_author = "Foo Team <no-reply@google.com>",
+    allowed_authors = allowed_authors,
+    contact_email = "foo-team+copybara@google.com",
+    github_use_app = True,
+    url = "https://github.com/google-research/opticalflow-autoflow",
+    transformations = transforms,
+    owner_mdb = "deepflow",
+    status_context_names = ["Kokoro"],
+)
+
+# An example config with github_check_runs
+piper_sot_to_github(
+    google3_files = google3_files,
+    default_author = "Foo Team <no-reply@google.com>",
+    allowed_authors = allowed_authors,
+    contact_email = "foo-team+copybara@google.com",
+    github_use_app = True,
+    url = "https://github.com/google-research/opticalflow-autoflow",
+    transformations = transforms,
+    owner_mdb = "foo-team",
+    # See: https://developer.github.com/v3/checks/runs/#get-a-check-run
+    # to find the test and app names.
+    github_check_runs = [
+        {
+            "name": "tests",
+            "app": {
+                "slug": "github-actions",
+            },
+        },
+    ],
+)
