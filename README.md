@@ -15,7 +15,8 @@ In ECCV 2022. <sup>*</sup> denotes equal technical contribution, <sup>T</sup> de
 Google Research<br />
 In CVPR 2021.
 
-![Example of retrained PWC-Net from our most recent submission](examples/examples_pwc_it_ft.png)
+![Example of retrained PWC-Net from our most recent submission (run in this
+inference colab)](examples/examples_pwc_it_ft.png)
 
 ## Inference
 
@@ -61,9 +62,14 @@ command.
 
 Then navigate to the "OpticalFlow-Inference.ipynb" and run all the cells.
 
+![Example of retrained PWC-Net from our most recent submission (run in this
+inference colab)](examples/examples_pwc_it_ft.png)
+
 ## Training
 
-The src/ directory currently contains the augmentation module (the Improved Training result uses the "pwc" augmentation from the augmentations module). The full train loop will posted soon.
+The src/ directory currently contains the augmentation module (the Improved
+Training result uses the "pwc" augmentation from the augmentations module). The
+full train loop will posted soon.
 
 ## Citation
 
