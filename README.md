@@ -61,6 +61,10 @@ command.
 
 Then navigate to the "OpticalFlow-Inference.ipynb" and run all the cells.
 
+## Training
+
+The src/ directory currently contains the augmentation module (the Improved Training result uses the "pwc" augmentation from the augmentations module). The full train loop will posted soon.
+
 ## Citation
 
 If you find this useful in your works, please acknowledge it appropriately by
