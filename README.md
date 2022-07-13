@@ -15,12 +15,14 @@ In ECCV 2022. <sup>*</sup> denotes equal technical contribution, <sup>T</sup> de
 Google Research<br />
 In CVPR 2021.
 
-![Left: Large improvements with newly trained PWC-Net, IRR-PWC and RAFT (left: originally
-published results in blue; results of our newly trained models in red). The newly trained RAFT is more accurate
-than all published methods on KITTI 2015 at the time of writing. Right: Visual comparison on a Davis sequence
-between the original [43] and our newly trained PWC-Net and RAFT, shows improved flow details, e.g. the hole
-between the cart and the person at the back. The newly trained PWC-Net recovers the hole between the cart and
-the front person better than RAFT.](examples/teaser.png)
+![Teaser image.](examples/teaser.png) Left: Large improvements with newly
+trained PWC-Net, IRR-PWC and RAFT (left: originally published results in blue;
+results of our newly trained models in red). The newly trained RAFT is more
+accurate than all published methods on KITTI 2015 at the time of writing. Right:
+Visual comparison on a Davis sequence between the original [43] and our newly
+trained PWC-Net and RAFT, shows improved flow details, e.g. the hole between the
+cart and the person at the back. The newly trained PWC-Net recovers the hole
+between the cart and the front person better than RAFT.
 
 ## Inference
 
@@ -66,8 +68,8 @@ command.
 
 Then navigate to the "OpticalFlow-Inference.ipynb" and run all the cells.
 
-![Example of retrained PWC-Net from our most recent submission (run in this
-inference colab)](examples/examples_pwc_it_ft.png)
+![Inference example.](examples/examples_pwc_it_ft.png) Example of retrained
+PWC-Net from our most recent submission (run in this inference colab)
 
 ## Training
 
