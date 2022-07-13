@@ -3,19 +3,16 @@
 ## Papers
 
 Dataset, code, and checkpoints for two optical flow papers from Google Research
-Viscam.
+Viscam. <br>
 
-<br>
 [What Makes RAFT Better Than PWC-Net?](https://arxiv.org/pdf/2203.10712v1.pdf) <br />
 [Deqing Sun](https://deqings.github.io/)<sup>\*,T</sup>, [Charles Herrmann](https://scholar.google.com/citations?user=LQvi5XAAAAAJ&hl=en)<sup>\*</sup>, [Fitsum Reda](https://fitsumreda.github.io/), [Michael Rubinstein](http://people.csail.mit.edu/mrub/), [David Fleet](https://www.cs.toronto.edu/~fleet/), [William T. Freeman](https://billf.mit.edu/)<br />
-Google Research
-In ECCV 2022. <sup>*</sup> denotes equal technical contribution, <sup>T</sup> denotes project lead.
+Google Research In ECCV 2022. <sup>*</sup> denotes equal technical contribution, <sup>T</sup> denotes project lead.
 
 <br>
 [AutoFlow: Learning a Better Training Set for Optical Flow](https://arxiv.org/pdf/2104.14544.pdf) <br />
 [Deqing Sun](https://deqings.github.io/), [Daniel Vlasic](https://people.csail.mit.edu/drdaniel/) , [Charles Herrmann](https://scholar.google.com/citations?user=LQvi5XAAAAAJ&hl=en), [Varun Jampani](https://varunjampani.github.io/), [Michael Krainin](https://research.google/people/107089/), [Huiwen Chang](https://scholar.google.com/citations?user=eZQNcvcAAAAJ&hl=en), [Ramin Zabih](https://www.cs.cornell.edu/~rdz/), [William T. Freeman](https://billf.mit.edu/), [Ce Liu](https://people.csail.mit.edu/celiu/) <br />
-Google Research
-In CVPR 2021.
+Google Research In CVPR 2021.
 
 ![Example of retrained PWC-Net from our most recent submission](examples/examples_pwc_it_ft.png)
 
