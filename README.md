@@ -25,7 +25,7 @@ between the cart and the front person better than RAFT.</p>
 [<b>AutoFlow: Learning a Better Training Set for Optical Flow</b>](https://arxiv.org/pdf/2104.14544.pdf) <br />
 [Deqing Sun](https://deqings.github.io/), [Daniel Vlasic](https://people.csail.mit.edu/drdaniel/) , [Charles Herrmann](https://scholar.google.com/citations?user=LQvi5XAAAAAJ&hl=en), [Varun Jampani](https://varunjampani.github.io/), [Michael Krainin](https://research.google/people/107089/), [Huiwen Chang](https://scholar.google.com/citations?user=eZQNcvcAAAAJ&hl=en), [Ramin Zabih](https://www.cs.cornell.edu/~rdz/), [William T. Freeman](https://billf.mit.edu/), [Ce Liu](https://people.csail.mit.edu/celiu/) <br />
 Google Research<br />
-In CVPR 2021.
+In CVPR 2021 (oral).
 
 ## Inference
 
