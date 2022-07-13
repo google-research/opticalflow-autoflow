@@ -87,21 +87,21 @@ If you find this useful in your works, please acknowledge it appropriately by
 citing:
 
 ```
+@article{sun2022makes,
+  title={What Makes RAFT Better Than PWC-Net?},
+  author={Sun, Deqing and Herrmann, Charles and Reda, Fitsum and Rubinstein, Michael and Fleet, David and Freeman, William T},
+  journal={arXiv preprint arXiv:2203.10712},
+  year={2022}
+}
+```
+
+```
 @inproceedings{sun2021autoflow,
   title={Autoflow: Learning a better training set for optical flow},
   author={Sun, Deqing and Vlasic, Daniel and Herrmann, Charles and Jampani, Varun and Krainin, Michael and Chang, Huiwen and Zabih, Ramin and Freeman, William T and Liu, Ce},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={10093--10102},
   year={2021}
-}
-```
-
-```
-@article{sun2022makes,
-  title={What Makes RAFT Better Than PWC-Net?},
-  author={Sun, Deqing and Herrmann, Charles and Reda, Fitsum and Rubinstein, Michael and Fleet, David and Freeman, William T},
-  journal={arXiv preprint arXiv:2203.10712},
-  year={2022}
 }
 ```
 
