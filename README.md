@@ -10,11 +10,6 @@ Viscam. <br>
 Google Research<br />
 In ECCV 2022. <sup>*</sup> denotes equal technical contribution, <sup>T</sup> denotes project lead. <br>
 
-[AutoFlow: Learning a Better Training Set for Optical Flow](https://arxiv.org/pdf/2104.14544.pdf) <br />
-[Deqing Sun](https://deqings.github.io/), [Daniel Vlasic](https://people.csail.mit.edu/drdaniel/) , [Charles Herrmann](https://scholar.google.com/citations?user=LQvi5XAAAAAJ&hl=en), [Varun Jampani](https://varunjampani.github.io/), [Michael Krainin](https://research.google/people/107089/), [Huiwen Chang](https://scholar.google.com/citations?user=eZQNcvcAAAAJ&hl=en), [Ramin Zabih](https://www.cs.cornell.edu/~rdz/), [William T. Freeman](https://billf.mit.edu/), [Ce Liu](https://people.csail.mit.edu/celiu/) <br />
-Google Research<br />
-In CVPR 2021.
-
 ![Teaser image.](examples/teaser.png)
 <p align="left"><b>Left:</b> Large improvements with newly
 trained PWC-Net, IRR-PWC and RAFT (left: originally published results in blue;
@@ -26,6 +21,11 @@ Visual comparison on a Davis sequence between the original [43] and our newly
 trained PWC-Net and RAFT, shows improved flow details, e.g. the hole between the
 cart and the person at the back. The newly trained PWC-Net recovers the hole
 between the cart and the front person better than RAFT.</p>
+
+[AutoFlow: Learning a Better Training Set for Optical Flow](https://arxiv.org/pdf/2104.14544.pdf) <br />
+[Deqing Sun](https://deqings.github.io/), [Daniel Vlasic](https://people.csail.mit.edu/drdaniel/) , [Charles Herrmann](https://scholar.google.com/citations?user=LQvi5XAAAAAJ&hl=en), [Varun Jampani](https://varunjampani.github.io/), [Michael Krainin](https://research.google/people/107089/), [Huiwen Chang](https://scholar.google.com/citations?user=eZQNcvcAAAAJ&hl=en), [Ramin Zabih](https://www.cs.cornell.edu/~rdz/), [William T. Freeman](https://billf.mit.edu/), [Ce Liu](https://people.csail.mit.edu/celiu/) <br />
+Google Research<br />
+In CVPR 2021.
 
 ## Inference
 
