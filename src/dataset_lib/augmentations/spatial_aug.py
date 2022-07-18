@@ -309,7 +309,6 @@ def apply(images, forward_flow, augmentation_params, is_hard_augment):
       augmentation_params)
 
   # Transform first image.
-  # TODO(deqingsun): check images are not padded and so no need to add 1??
   crop_center_y += 1
   crop_center_x += 1
   transform = crop_aug.compose_cropping_transformation(

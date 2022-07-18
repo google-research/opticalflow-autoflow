@@ -101,8 +101,8 @@ citing:
 }
 ```
 
-Contact: Deqing Sun (deqingsun@google.com) and Charles Herrmann
-(irwinherrmann@google.com)
+Contact: Deqing Sun (deqingsun @ google.com) and Charles Herrmann (irwinherrmann
+@ google.com)
 
 ## Coding style
 

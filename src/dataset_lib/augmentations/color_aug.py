@@ -274,7 +274,6 @@ def apply(images, aug_params):
   images, _ = pcaaug(images, [])
 
   # Chromatic augmentation applied to image 2
-  # TODO(deqingsun): make the range parameters of each augmentation CONSTANT
   image1 = images[1, :, :, :]
   mean_in = tf.reduce_sum(image1, -1)
   color = tf.math.exp(
