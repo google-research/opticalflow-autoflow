@@ -5,7 +5,7 @@
 Dataset, code, and checkpoints for two optical flow papers from Google Research
 Viscam. <br>
 
-[<b>What Makes RAFT Better Than PWC-Net?</b>](https://arxiv.org/pdf/2203.10712v1.pdf) <br />
+[<b>Disentangling Architecture and Training for Optical Flow?</b>](https://arxiv.org/pdf/2203.10712v1.pdf) <br />
 [Deqing Sun](https://deqings.github.io/)<sup>\*,T</sup>, [Charles Herrmann](https://scholar.google.com/citations?user=LQvi5XAAAAAJ&hl=en)<sup>\*</sup>, [Fitsum Reda](https://fitsumreda.github.io/), [Michael Rubinstein](http://people.csail.mit.edu/mrub/), [David Fleet](https://www.cs.toronto.edu/~fleet/), [William T. Freeman](https://billf.mit.edu/)<br />
 Google Research<br />
 In ECCV 2022. <sup>*</sup> denotes equal technical contribution, <sup>T</sup> denotes project lead. <br>
@@ -87,7 +87,7 @@ citing:
 
 ```
 @article{sun2022makes,
-  title={What Makes RAFT Better Than PWC-Net?},
+  title={Disentangling Architecture and Training for Optical Flow},
   author={Sun, Deqing and Herrmann, Charles and Reda, Fitsum and Rubinstein, Michael and Fleet, David and Freeman, William T},
   journal={arXiv preprint arXiv:2203.10712},
   year={2022}
