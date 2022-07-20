@@ -78,7 +78,7 @@ colab)</p>
 
 The src/ directory currently contains the augmentation module (the Improved
 Training result uses the "pwc" augmentation from the augmentations module). The
-full train loop will posted soon.
+full train loop will be posted soon.
 
 ## Citation
 
