@@ -86,7 +86,7 @@ If you find this useful in your works, please acknowledge it appropriately by
 citing:
 
 ```
-@article{sun2022makes,
+@article{sun2022disentangling,
   title={Disentangling Architecture and Training for Optical Flow},
   author={Sun, Deqing and Herrmann, Charles and Reda, Fitsum and Rubinstein, Michael and Fleet, David and Freeman, William T},
   journal={arXiv preprint arXiv:2203.10712},
