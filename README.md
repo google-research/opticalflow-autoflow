@@ -48,6 +48,8 @@ pretrained_models/
 ├── eccv_disentangling_model_and_train/
 │   ├── pwc_it_pre/
 │   ├── pwc_it_ft/
+│   ├── raft_it_pre/
+│   ├── raft_it_ft/
 ```
 
 ### Running the optical flow network
