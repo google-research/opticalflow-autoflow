@@ -45,7 +45,7 @@ The downloaded folder should have the following structure:
 
 ```
 pretrained_models/
-├── eccv_disentangling_model_and_train/
+├── eccv_disentangling_architecture_and_train/
 │   ├── pwc_it_pre/
 │   ├── pwc_it_ft/
 │   ├── raft_it_pre/
